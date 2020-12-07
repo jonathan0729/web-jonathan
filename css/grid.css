@@ -6,7 +6,6 @@
     background-size: cover;
     color: rgb(8, 8, 8);
 }
-
 [class*="col-"] {
     padding: 10px;
 }
@@ -15,12 +14,10 @@
     .row {
         display: flex;
         flex-wrap: wrap;
-    
     }
     .card .card-body{
         width: 100%;
         height: 100%;
-    
     }
 .col-xs-1 {width: 8.33%;}
 .col-xs-2 {width: 16.66%;}
@@ -35,6 +32,8 @@
 .col-xs-11 {width: 91.66%;}
 .col-xs-12 {width: 100%;}
 }    
+
+/*========small divice======*/
 @media (min-width: 576px) {
     .col-sm-1 {width: 8.33%;}
     .col-sm-2 {width: 16.66%;}
@@ -49,32 +48,31 @@
     .col-sm-11 {width: 91.66%;}
     .col-sm-12 {width: 100%;}
     }    
-    
-    /* Tablets */
-    @media (min-width: 768px) {
-        .card-picture {
-            width: 100%;
-            height: auto;
-        }
-        .col-md-1 {width: 8.33%;}
-        .col-md-2 {width: 16.66%;}
-        .col-md-3 {width: 25%;}
-        .col-md-4 {width: 33.3333%;}
-        .col-md-5 {width: 41.66%;}
-        .col-md-6 {width: 50%;}
-        .col-md-7 {width: 58.33333%;}
-        .col-md-8 {width: 66.66%;}
-        .col-md-9 {width: 75%;}
-        .col-md-10 {width: 83.33%;}
-        .col-md-11 {width: 91.66%;}
-        .col-md-12 {width: 100%;}
+
+ /*===== Tablets */
+ @media (min-width: 768px) {
+    .card-picture {
+        width: 100%;
+        height: auto;
     }
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.3333%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33333%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+ }
+        
 
 /* Large devices */
 @media (min-width: 992px) {
     #menu{
         top : 7vh;
     }    
-    .col-lg-1 {width: 8.33%;}
-    .col-lg-4 {width: 33%;}
 }

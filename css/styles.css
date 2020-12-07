@@ -6,19 +6,17 @@
 }
 section {
     background-color:white;
-    
 }
 
-/* 
- ======================== Navigation =============================
-*/
+
+ /*======================== Navigation =============================*/
 .nav {
     width: 100%;
     height: 40px;
     background-color: rgba(0,0,0, 0.8);
     display: flex;
 }
-.nav ul.hide{
+.nav ul.hide {
     display: none;
 }
 #menu {
@@ -51,12 +49,8 @@ a:hover {
     transform: scale(1.1);
 }
 
-
-
-
 /* 
- ======================== Banner =============================
-*/
+ ======================== Banner ============================ */
 .profile-picture {
     width: 150px;
     height: 150px;
@@ -70,8 +64,7 @@ a:hover {
 
 
 /* 
- ======================== Posts =============================
-*/
+ ======================== Posts =============================*/
 .title {
     margin-bottom: 10px;
     padding: 30px;
@@ -89,8 +82,6 @@ a:hover {
     box-shadow: 0 .125rem .25rem rgba(0,0,0,3);
     border-radius: 5px;
 }
-
-
 .image-one {
     background-image: url(../img/LEON.jpeg);
 }
@@ -108,6 +99,24 @@ a:hover {
     width: auto;
     border-radius: 10px;
 }
+/*==================education=============*/
+.education-card {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,3);
+}
+.education-picture {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(158, 158, 158, 0.38);
+    margin: auto;
+    text-align: center;
+}
+.space-top-education {
+    margin-top: 40px;
+    border-radius: 5px;
+}
 
 /*
 ======================== Components =============================
@@ -119,7 +128,6 @@ a:hover {
     padding: 8px 15px;
     border: 0;
 }
-
 .card {
     height:500px;
     max-width: 500px;
@@ -141,26 +149,6 @@ a:hover {
     left: 35%;
 }
 
-/*==================education=============*/
-.education-card {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,3);
-}
-.education-picture {
-    width: 100%;
-    height: 200px;
-    background-color: rgba(158, 158, 158, 0.38);
-    margin: auto;
-    text-align: center;
-}
-.space-top-education {
-    margin-top: 40px;
-    border-radius: 5px;
-}
-
-
 /*
 ======================== Helpers =============================
 */
@@ -169,7 +157,6 @@ a:hover {
 }
 .center-text {
     text-align: center;
-   
 }
 .space-top {
     margin-top: 20px;
@@ -180,26 +167,13 @@ a:hover {
 .relative {
     position: relative;
 }
-.hover:hover{
+.hover:hover {
     transform: scale(1.05);
 }
-.red {
-    border: solid 2px red;
-}
-.blue {
-    border: solid 2px blue;
-}
-.yellow {
-    border: solid 2px yellow;
-    
-}
-.relative{
+.relative {
     position: relative;
 }
-.absolute{
+.absolute {
     position: absolute;
 }
-   
-    
 
-/*====================animations=========================*/
